@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="theme-color" content="#0b1957" />
+  <title>¡En Bello lo podemos hacer mejor! | Jeferson Banguera - Somos Resistencia</title>
+  <meta name="description" content="¡87.019 personas ya votamos por resistir y defender nuestros derechos! Únete al equipo de Jeferson Banguera en Bello." />
+
+  <!-- Google Fonts: Archivo Black & Montserrat para máximo impacto y legibilidad móvil -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Fondo de chispas y estrellas de 4 puntas sutiles -->
+  <div class="sparkles-layer" aria-hidden="true">
+    <!-- Estrella dorada superior derecha -->
+    <svg class="sparkle star-1" viewBox="0 0 32 32" fill="none">
+      <path d="M16 0C16 10.5 21.5 16 32 16C21.5 16 16 21.5 16 32C16 21.5 10.5 16 0 16C10.5 16 16 10.5 16 0Z" fill="#F8AC08"/>
+      <circle cx="16" cy="16" r="3" fill="#FFF5C0"/>
+    </svg>
+    <!-- Estrella dorada media izquierda -->
+    <svg class="sparkle star-2" viewBox="0 0 32 32" fill="none">
+      <path d="M16 0C16 10.5 21.5 16 32 16C21.5 16 16 21.5 16 32C16 21.5 10.5 16 0 16C10.5 16 16 10.5 16 0Z" fill="#F8AC08"/>
+      <circle cx="16" cy="16" r="3" fill="#FFF5C0"/>
+    </svg>
+    <!-- Estrella naranja suave inferior izquierda -->
+    <svg class="sparkle star-3" viewBox="0 0 32 32" fill="none">
+      <path d="M16 0C16 10.5 21.5 16 32 16C21.5 16 16 21.5 16 32C16 21.5 10.5 16 0 16C10.5 16 16 10.5 16 0Z" fill="#E87A3E"/>
+    </svg>
+    <!-- Estrella blanca sutil derecha -->
+    <svg class="sparkle star-4" viewBox="0 0 32 32" fill="none">
+      <path d="M16 0C16 10.5 21.5 16 32 16C21.5 16 16 21.5 16 32C16 21.5 10.5 16 0 16C10.5 16 16 10.5 16 0Z" fill="#FFFFFF"/>
+    </svg>
+    <!-- Estrella amarilla junto al formulario -->
+    <svg class="sparkle star-5" viewBox="0 0 32 32" fill="none">
+      <path d="M16 0C16 10.5 21.5 16 32 16C21.5 16 16 21.5 16 32C16 21.5 10.5 16 0 16C10.5 16 16 10.5 16 0Z" fill="#F8AC08"/>
+    </svg>
+  </div>
+
+  <main class="campaign-container">
+    <!-- 1. SECCIÓN HERO (PRIMER IMPACTO) -->
+    <header class="hero-section">
+      <div class="headline-wrapper">
+        <!-- Chispas superiores izquierdas del titular (fieles al volante) -->
+        <svg class="burst-top-left" viewBox="0 0 60 55" fill="none" aria-hidden="true">
+          <path d="M28 36L8 10" stroke="#D91B76" stroke-width="4.5" stroke-linecap="round"/>
+          <path d="M38 28L33 6" stroke="#C41E8A" stroke-width="3.8" stroke-linecap="round"/>
+          <path d="M22 44L5 39" stroke="#F06428" stroke-width="3.8" stroke-linecap="round"/>
+        </svg>
+
+        <h1 class="hero-title">
+          <span class="hero-title-yellow">¡EN BELLO LO PODEMOS</span>
+          <span class="hero-title-white">HACER MEJOR!</span>
+        </h1>
+      </div>
+
+      <!-- VIDEO INCRUSTADO (Optimizado para carga rápida en móviles) -->
+      <div class="video-card" id="videoContainer">
+        <div class="video-aspect-wrapper">
+          <!-- Video HTML5 ligero con la foto de Jeferson Banguera como portada inicial -->
+          <video
+            id="campaignVideo"
+            class="campaign-video"
+            src="El_problema_de_los__elefantes_blancos__en_Bello.mp4"
+            playsinline
+            preload="metadata"
+            poster="jeferson-banguera.jpg"
+            aria-label="El problema de los elefantes blancos en Bello - Jeferson Banguera"
+          >
+            <source src="El_problema_de_los__elefantes_blancos__en_Bello.mp4" type="video/mp4" />
+            Tu navegador no soporta la reproducción de video.
+          </video>
+
+          <!-- Overlay interactivo estilo móvil para iniciar reproducción con un toque -->
+          <button type="button" class="video-play-overlay" id="videoPlayBtn" aria-label="Reproducir video: El problema de los elefantes blancos en Bello">
+            <div class="video-poster-backdrop">
+              <div class="video-badge-live">
+                <span class="pulse-dot"></span> EL PROBLEMA DE LOS ELEFANTES BLANCOS EN BELLO
+              </div>
+              <div class="play-button-circle">
+                <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M8 5.14v13.72a1 1 0 001.55.83l11-6.86a1 1 0 000-1.66l-11-6.86A1 1 0 008 5.14z"/>
+                </svg>
+              </div>
+              <p class="video-cta-caption">Toca para ver el video</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- SUBTÍTULO DEBAJO DEL VIDEO -->
+      <div class="subtitle-banner">
+        <!-- Chispas superiores derechas del subtítulo -->
+        <svg class="burst-top-right" viewBox="0 0 60 55" fill="none" aria-hidden="true">
+          <path d="M18 28L23 6" stroke="#E85C25" stroke-width="3.8" stroke-linecap="round"/>
+          <path d="M26 36L46 14" stroke="#D91B76" stroke-width="4.2" stroke-linecap="round"/>
+          <path d="M32 45L49 42" stroke="#8C288C" stroke-width="3.6" stroke-linecap="round"/>
+        </svg>
+
+        <h2 class="votes-subtitle">
+          ¡<span class="highlight-yellow">87.019 personas</span> ya votamos por resistir y defender nuestros derechos!
+        </h2>
+      </div>
+    </header>
+
+    <!-- 2. SECCIÓN DE PROPÓSITO Y RETRATO DEL CANDIDATO (CONEXIÓN HUMANA + IDENTIDAD) -->
+    <section class="candidate-purpose-section" aria-label="Propósito y liderazgo de Jeferson Banguera">
+      <div class="candidate-showcase">
+        <!-- Retrato oficial de Jeferson Banguera integrado con el azul de campaña y el emblema del puño -->
+        <div class="candidate-photo-frame">
+          <div class="photo-glow-ring" aria-hidden="true"></div>
+          <img
+            src="jeferson-banguera.jpg"
+            alt="Jeferson Banguera - Somos Resistencia en Bello"
+            class="candidate-portrait-img"
+            loading="eager"
+          />
+          <!-- Degradado inferior para fundir la foto con el bloque tipográfico SOMOS RESISTENCIA -->
+          <div class="photo-bottom-fade" aria-hidden="true"></div>
+
+          <!-- Medallón del Puño Multicolor superpuesto en la esquina inferior derecha del retrato -->
+          <div class="fist-badge-floating" aria-hidden="true">
+            <svg class="fist-svg" viewBox="0 0 260 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="62" cy="76" r="5" fill="#D41876"/>
+              <path d="M68 106C59 98 54 90 58 86C62 82 70 92 75 101Z" fill="#D41876"/>
+              <path d="M84 128C71 122 61 114 64 110C67 106 77 115 86 123Z" fill="#E61C79"/>
+              <path d="M180 118C190 112 197 104 194 100C191 96 183 105 176 112Z" fill="#D41876"/>
+              <path d="M106 16C111 8 122 6 130 11L142 18C148 22 150 28 148 34C154 31 162 32 168 36L174 40C180 44 182 51 180 57C186 55 192 57 197 61L202 65C208 70 209 79 205 86L187 115L198 106L182 142L192 135L173 175L168 214H149L145 178L137 214H125L122 182L115 214H98L94 166L72 104C68 94 70 83 78 76L95 62L88 49C84 41 86 31 94 26L106 16Z" fill="#FFFFFF"/>
+              <path d="M84 95C82 88 85 80 92 76L112 65C117 62 124 63 128 67L144 82L122 93C115 97 112 105 115 112L126 134C112 136 96 126 90 112L84 95Z" fill="#0B1957"/>
+              <path d="M133 139C143 132 156 120 165 106L173 120C165 137 151 151 136 157L133 139Z" fill="#0B1957"/>
+              <rect x="108" y="16" width="24" height="36" rx="7" transform="rotate(32 108 16)" fill="#F8A908"/>
+              <rect x="131" y="31" width="23" height="40" rx="7" transform="rotate(32 131 31)" fill="#1348B8"/>
+              <rect x="153" y="45" width="23" height="42" rx="7" transform="rotate(32 153 45)" fill="#E31826"/>
+              <rect x="175" y="61" width="22" height="39" rx="7" transform="rotate(32 175 61)" fill="#12963F"/>
+              <path d="M119 72L157 96C161 99 162 104 159 108C156 112 150 113 145 110L112 89C108 86 107 80 110 75C113 71 116 70 119 72Z" fill="#9B1B81"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Logos tipográficos SOMOS RESISTENCIA y JEFERSON BANGUERA superpuestos al pie de la foto -->
+        <div class="brand-titles">
+          <svg class="burst-mid-right" viewBox="0 0 50 45" fill="none" aria-hidden="true">
+            <path d="M10 26L16 6" stroke="#E86A25" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M18 32L36 16" stroke="#D91B76" stroke-width="3.8" stroke-linecap="round"/>
+            <path d="M23 39L41 37" stroke="#E86A25" stroke-width="3.2" stroke-linecap="round"/>
+          </svg>
+
+          <svg class="burst-bottom-left" viewBox="0 0 50 45" fill="none" aria-hidden="true">
+            <path d="M35 12L14 10" stroke="#E86A25" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M38 22L14 32" stroke="#E86A25" stroke-width="4" stroke-linecap="round"/>
+            <path d="M43 30L36 43" stroke="#E86A25" stroke-width="3.2" stroke-linecap="round"/>
+          </svg>
+
+          <div class="somos-text">SOMOS</div>
+          <div class="resistencia-text">RESISTENCIA</div>
+          <div class="candidate-name">JEFERSON BANGUERA</div>
+        </div>
+      </div>
+
+      <!-- Texto de propósito enmarcado como compromiso directo del candidato -->
+      <div class="purpose-quote-box">
+        <p class="purpose-text">
+          “Queremos ser un <span class="purpose-highlight">mejor administrador de tus recursos</span> en la alcaldía, para que tus impuestos no terminen en fiestas.”
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. SECCIÓN DE CONVERSIÓN (FORMULARIO AL FINAL) -->
+    <section class="conversion-section" id="registro" aria-labelledby="formHeading">
+      <div class="cta-header">
+        <h2 id="formHeading" class="cta-title">
+          ¡INGRESA PARA UNIRTE!
+        </h2>
+        <!-- Ícono de esquina/flecha igual al del código QR del volante -->
+        <svg class="cta-arrow-icon" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+          <path d="M6 18V9C6 7.34315 7.34315 6 9 6H18" stroke="#F8AC08" stroke-width="4" stroke-linecap="round"/>
+          <path d="M26 6H35C36.6569 6 38 7.34315 38 9V18" stroke="#F8AC08" stroke-width="4" stroke-linecap="round"/>
+          <path d="M38 26V35C38 36.6569 36.6569 38 35 38H26" stroke="#F8AC08" stroke-width="4" stroke-linecap="round"/>
+          <path d="M31 31L16 16M16 16H27M16 16V27" stroke="#F8AC08" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <form id="joinForm" class="join-form" novalidate>
+        <div class="form-group">
+          <label for="fullName" class="form-label">Nombre y Apellido <span class="req-star">*</span></label>
+          <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            class="form-input"
+            placeholder="Ej. Carolina Gómez"
+            autocomplete="name"
+            required
+          />
+          <span class="field-error" id="fullNameError" role="alert"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="whatsapp" class="form-label">Número de WhatsApp <span class="req-star">*</span></label>
+          <div class="phone-input-wrap">
+            <span class="country-prefix" aria-hidden="true">🇨🇴 +57</span>
+            <input
+              type="tel"
+              id="whatsapp"
+              name="whatsapp"
+              class="form-input phone-input"
+              placeholder="300 123 4567"
+              inputmode="numeric"
+              autocomplete="tel-national"
+              maxlength="14"
+              required
+            />
+          </div>
+          <span class="field-error" id="whatsappError" role="alert"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="barrio" class="form-label">Barrio en Bello <span class="req-star">*</span></label>
+          <input
+            type="text"
+            id="barrio"
+            name="barrio"
+            list="barriosBelloList"
+            class="form-input"
+            placeholder="Escribe o elige tu barrio (ej. Niquía, Cabañas...)"
+            autocomplete="address-level3"
+            required
+          />
+          <datalist id="barriosBelloList">
+            <option value="Niquía"></option>
+            <option value="Cabañas"></option>
+            <option value="Zamora"></option>
+            <option value="París"></option>
+            <option value="Santa Ana"></option>
+            <option value="La Cumbre"></option>
+            <option value="Bellavista"></option>
+            <option value="Pachelly"></option>
+            <option value="Barrio Nuevo"></option>
+            <option value="Fontidueño"></option>
+            <option value="Machado"></option>
+            <option value="Navarra"></option>
+            <option value="Pérez"></option>
+            <option value="Prado"></option>
+            <option value="Suárez"></option>
+            <option value="Manchester"></option>
+            <option value="Hato Viejo"></option>
+            <option value="El Rosario"></option>
+            <option value="Andalucía"></option>
+            <option value="López de Mesa"></option>
+            <option value="El Mirador"></option>
+            <option value="Goretti"></option>
+            <option value="San José Obrero"></option>
+            <option value="San Félix"></option>
+          </datalist>
+          <span class="field-error" id="barrioError" role="alert"></span>
+        </div>
+
+        <button type="submit" class="cta-submit-btn" id="submitBtn">
+          <span>UNIRME AHORA</span>
+        </button>
+
+        <p class="privacy-note">Seremos discretos con tus datos</p>
+      </form>
+
+      <!-- Estado de confirmación al enviar el formulario -->
+      <div class="form-success-card" id="formSuccess" hidden aria-live="polite">
+        <div class="success-icon-circle">✓</div>
+        <h3 class="success-title">¡BIENVENIDO/A A LA RESISTENCIA!</h3>
+        <p class="success-message" id="successDynamicText">
+          Gracias por sumarte. Juntos vamos a cuidar los recursos de Bello para nuestra gente.
+        </p>
+        <button type="button" class="cta-reset-btn" id="resetFormBtn">
+          Registrar a otra persona
+        </button>
+      </div>
+
+      <!-- Logo PACTO HISTÓRICO al pie -->
+      <footer class="pacto-footer">
+        <div class="pacto-logo" aria-label="Pacto Histórico">
+          <svg class="pacto-svg" viewBox="0 0 310 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pacto Histórico">
+            <!-- P (Amarillo/Naranja) -->
+            <path d="M22 10H54C69 10 79 20 79 34C79 48 69 58 54 58H42V70H22V10ZM42 41H51C56 41 59 38 59 34C59 30 56 27 51 27H42V41Z" fill="#F6931D"/>
+            <!-- A (Azul) -->
+            <path d="M92 10H114L136 70H114L110 58H94L90 70H68L92 10ZM98 43H106L102 28L98 43Z" fill="#1846A8"/>
+            <!-- C (Rojo) -->
+            <path d="M162 71C143 71 129 58 129 40C129 22 143 9 162 9C175 9 185 15 190 25L172 34C170 29 166 27 161 27C153 27 148 32 148 40C148 48 153 53 161 53C166 53 170 50 172 46L190 55C185 65 175 71 162 71Z" fill="#E31826"/>
+            <!-- T (Verde) -->
+            <path d="M196 28H182V10H234V28H218V70H196V28Z" fill="#12963F"/>
+            <!-- O con Paloma de la Paz (Morado) -->
+            <circle cx="264" cy="40" r="30" fill="#8D2186"/>
+            <path d="M236 45C244 43 252 44 258 49C255 41 259 32 268 30C264 36 266 43 272 46C276 41 279 34 277 27C284 33 287 43 283 53C279 62 268 68 256 66C247 64 240 58 237 50" stroke="#180A29" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="269" cy="36" r="1.8" fill="#180A29"/>
+            <path d="M279 20C281 17 285 17 286 20C287 17 291 17 293 20C294 23 290 27 286 30C282 27 278 23 279 20Z" stroke="#180A29" stroke-width="1.8"/>
+            <!-- Texto HISTÓRICO -->
+            <text x="155" y="89" text-anchor="middle" fill="#FFFFFF" font-family="'Montserrat', sans-serif" font-weight="700" font-size="14" letter-spacing="8">HISTÓRICO</text>
+          </svg>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <!-- GRÁFICO DE ONDAS MULTICOLOR SUPERPUESTAS EN LA PARTE INFERIOR -->
+  <div class="bottom-waves-wrapper" aria-hidden="true">
+    <svg class="bottom-waves-svg" viewBox="0 0 1440 340" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="waveGradBack" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#B9135B" />
+          <stop offset="50%" stop-color="#7B136B" />
+          <stop offset="100%" stop-color="#8A1488" />
+        </linearGradient>
+        <linearGradient id="waveGradMid" x1="0%" y1="100%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#E4142B" />
+          <stop offset="45%" stop-color="#D41956" />
+          <stop offset="100%" stop-color="#F58216" />
+        </linearGradient>
+        <linearGradient id="waveGradFront" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#EB1D24" />
+          <stop offset="48%" stop-color="#F26716" />
+          <stop offset="100%" stop-color="#FBB016" />
+        </linearGradient>
+      </defs>
+
+      <!-- Onda profunda magenta/morada -->
+      <path
+        d="M0,130 C320,185 620,295 960,260 C1190,235 1340,145 1440,90 L1440,340 L0,340 Z"
+        fill="url(#waveGradBack)"
+      />
+      <!-- Onda media roja a naranja vibrante -->
+      <path
+        d="M0,180 C280,225 560,310 890,280 C1150,255 1320,175 1440,120 L1440,340 L0,340 Z"
+        fill="url(#waveGradMid)"
+        opacity="0.92"
+      />
+      <!-- Onda frontal cálida rojo-naranja-amarillo -->
+      <path
+        d="M0,225 C340,280 720,335 1080,265 C1260,230 1370,190 1440,160 L1440,340 L0,340 Z"
+        fill="url(#waveGradFront)"
+      />
+    </svg>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
